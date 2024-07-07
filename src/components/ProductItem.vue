@@ -1,9 +1,9 @@
 <template>
   <div class="item">
+    <div class="details">
     <i>
       <slot name="icon"></slot>
     </i>
-    <div class="details">
       <h3>
         <slot name="heading"></slot>
       </h3>
@@ -27,29 +27,26 @@
 i {
   display: flex;
   place-items: center;
-  place-content: center;
   width: 32px;
   height: 32px;
 
-  color: var(--color-text);
+  color: var(--color-text-primary);
 }
 
 h3 {
-  font-size: 1.2rem;
   font-weight: 500;
-  margin-bottom: 0.4rem;
-  color: var(--color-heading);
+  color: var(--color-text-3);
 }
 
-@media (min-width: 1024px) {
+@media {
   .item {
     margin-top: 0;
-    padding: 0.4rem 0 1rem calc(var(--section-gap) / 2);
+    padding: 0.4rem 0 1rem calc(var(--section-gap) / 4);
   }
 
   i {
     top: calc(50% - 25px);
-    left: -26px;
+    left: 0px;
     position: absolute;
     border: 1px solid var(--color-border);
     background: var(--color-background);
