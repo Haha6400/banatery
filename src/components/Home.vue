@@ -1,10 +1,5 @@
 <script setup lang="ts">
-defineProps<{
-  msg: string,
-  scrollToSection: (sectionId: string) => void
-}>()
-
-function scrollToSection(sectionId) {
+function scrollToSection(sectionId: string) {
     const section = document.getElementById(sectionId);
     if (section) {
       section.scrollIntoView({ behavior: 'smooth', block: 'start' });

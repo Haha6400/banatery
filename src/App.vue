@@ -5,15 +5,11 @@ import Product from './components/Product.vue'
 import AboutUs from './components/AboutUs.vue'
 import Structure from './components/Structure.vue'
 
-function scrollToSection() {
-  console.log("abc")
-    return true;
-}
 </script>
 
 <template>
   <header>
-    <Home :scrollToSection="scrollToSection" />
+    <Home />
     <Product id="product" />
     <Structure id = "structure" />
     <AboutUs id="about-us" />
