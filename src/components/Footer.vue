@@ -1,3 +1,8 @@
+
+<script setup lang="ts">
+
+</script>
+
 <template>
   <div class="footer">
     <div class="content">
@@ -13,9 +18,6 @@
       </div>
   </div>
 </template>
-
-<script>
-</script>
 
 <style scoped>
 .text-custom-1{
@@ -53,19 +55,5 @@
   justify-content: center;
 }
 
-.social-links {
-  margin-top: 10px;
-}
-
-.social-links a {
-  margin: 0 10px;
-}
-
-.social-links img {
-  width: 24px;
-  height: 24px;
-}
-.a:hover{
-    background-color: none;
-}
 </style>
+
