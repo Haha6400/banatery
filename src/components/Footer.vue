@@ -6,7 +6,7 @@
 <template>
   <div class="footer">
     <div class="content">
-        <img alt="Battery logo" class="logo" onclick='window.open("https://www.facebook.com/banatery?mibextid=LQQJ4d", "_blank");' src="@/assets/team-logo.png" width="30%"/>
+        <img alt="Battery logo" class="logo" onclick='window.open("https://www.facebook.com/banatery?mibextid=LQQJ4d", "_blank");' src="@/assets/team-logo.png" width="40%"/>
       <p class="text-custom-1" >Dự án phát triển pin Lithium từ vỏ chuối</p>
       <p class="text-custom-2" >Năng lượng xanh đến từ tương lai!</p>
     </div>
@@ -22,12 +22,12 @@
 <style scoped>
 .text-custom-1{
     font-weight: 600;
-  font-size: 16px;
+  font-size: 24px;
   position: relative;
 }
 .text-custom-2{
     font-weight: 500;
-  font-size: 16px;
+  font-size: 24px;
   font-style: italic;
   position: relative;
 }
@@ -35,6 +35,7 @@
     display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  font-size: 24px;
 }
 .footer {
   position: relative;

@@ -159,12 +159,12 @@ import DoneIcon from './icons/IconDone.vue'
   }
 
 h2 {
-  font-size: 26px;
+  font-size: 34px;
   font-weight: 500;
   color: var(--color-text-primary);
 }
 h4 {
-  font-size: 1.2rem;
+  font-size: 30px;
   font-weight: 500;
   margin-bottom: 1rem;
   margin-top: 1rem;
@@ -195,6 +195,7 @@ i {
 
 h3 {
   font-weight: 500;
+  font-size: 24px;
   color: var(--color-text-primary);
 }
 

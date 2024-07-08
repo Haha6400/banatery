@@ -5,9 +5,11 @@ import DoneIcon from './icons/IconDone.vue'
 </script>
 
 <template>
-    <div style="padding: 5%; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-            <h3>BÓC TÁCH LÕI PIN</h3>
-            <img alt="Battery core" src="./image/core.png" width="70%" style = "margin: 0 15%"/>
+    <div style = "padding: 2%; background-color: var(--green-5); min-height: 60vh;"> 
+      <img alt="Battery core" src="./image/pin-core-2.png" width="90%" style = "margin: 0 5%"/>
+    </div>
+    <div style = "padding: 2%; min-height: 60vh;"> 
+      <img alt="Battery core" src="./image/business.png" width="90%" style = "margin: 0 5%"/>
     </div>
 </template>
 

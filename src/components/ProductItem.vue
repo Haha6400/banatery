@@ -20,6 +20,7 @@
 }
 
 .details {
+  font-size: 24px;
   flex: 1;
   margin-left: 1rem;
 }

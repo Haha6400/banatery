@@ -7,6 +7,16 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
+      component: () => import('../components/Home.vue')
+    },
+    {
+      path: '/introdution',
+      name: 'introdution',
+      component: () => import('../components/Introdution.vue')
+    },
+    {
+      path: '/products',
+      name: 'product',
       component: HomeView
     },
     {
@@ -20,9 +30,14 @@ const router = createRouter({
       component: () => import('../components/Structure.vue')
     },
     {
-      path: '/business',
-      name: 'business',
-      component: () => import('../components/Business.vue')
+      path: '/achievement',
+      name: 'achievement',
+      component: () => import('../views/Achievement.vue')
+    },
+    {
+      path: '/feedback',
+      name: 'feedback',
+      component: () => import('../components/Feedback.vue')
     }
   ]
 })

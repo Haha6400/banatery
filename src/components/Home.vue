@@ -1,42 +1,39 @@
 <script setup lang="ts">
+import { onMounted } from 'vue';
+import { useRouter } from 'vue-router';
+
+const router = useRouter();
+
 function scrollToSection(sectionId: string) {
-    const section = document.getElementById(sectionId);
-    if (section) {
-      section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (sectionId) {
+      window.open(`/${sectionId}`);
     }
   }
 </script>
 
-<template style = "background-image: url('@/assets/bgr1-100.jpg');">
-<div class="wrapper">
-    <img alt="Battery logo" class="logo" onclick='window.open("https://www.facebook.com/banatery?mibextid=LQQJ4d", "_blank");' src="@/assets/team-logo.png" width="30%"/>
-
-  <div class="greetings">
-    <h1 class = "green">Dự án phát triển pin Lithium từ vỏ chuối</h1>
-    <h3 >
-      Năng lượng xanh đến từ tương lai!
-    </h3>
-    <nav style="text-align: center !important">
-        <RouterLink to = "/" @click="scrollToSection('product')">Product</RouterLink>
-        <RouterLink to = "/pin-core" @click="scrollToSection('structure')">Battery Core</RouterLink>
-        <RouterLink to = "/business" @click="scrollToSection('business')">Business</RouterLink>
-        <RouterLink to = "/about" @click="scrollToSection('about-us')">About Us</RouterLink>
-      </nav>
+<template>
+  <div class="wrapper">
+    <img alt="Battery logo" class="logo" onclick='window.open("https://www.facebook.com/banatery?mibextid=LQQJ4d", "_blank");' src="@/assets/team-logo.png" width="30%" />
+    <div class="greetings">
+      <h1 class="green">Dự án phát triển pin Lithium từ vỏ chuối</h1>
+      <h3>Năng lượng xanh đến từ tương lai!</h3>
+    </div>
   </div>
-      </div>
 </template>
 
 <style scoped>
 h1 {
   font-weight: 650;
-  font-size: 2rem;
+  font-size: 34px;
   position: relative;
   top: -10px;
+  color: white;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 30px;
     font-style: italic;
+    color: white;
 }
 
 h1, h3 {
@@ -46,37 +43,6 @@ h1, h3 {
 .greetings h3 {
   text-align: center;
 }
-
-nav {
-  width: 100%;
-  height: 200%;
-  font-size: 12px;
-  text-align: center;
-  margin-top: 2rem;
-  margin-left: 10px;
-}
-nav a:hover{
-  background-color: var(--green-3);
-  border-radius: 10px;
-}
-nav a.router-link-exact-active {
-  color: var(--color-text-primary);
-  border-radius: 10px;
-}
-nav a.router-link-exact-active{
-  background-color: var(--green-5);
-}
-
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
-}
-
-nav a:first-of-type {
-  border: 0;
-}
-
 @media {
   header {
     display: flex;
@@ -87,8 +53,7 @@ nav a:first-of-type {
   .logo {
     align-content: center;
   }
-
-  header .wrapper {
+.wrapper {
     flex-direction: column; /* Sắp xếp theo chiều dọc */
     display: flex;
     place-items: flex-center;
@@ -97,6 +62,9 @@ nav a:first-of-type {
   align-items: center;
   min-height: 100vh;
   padding: 20px;
+        background-size: cover;
+  background-position: center;
+    background-image: url('@/assets/bgr-home.png');
   }
 
   nav {
