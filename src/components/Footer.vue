@@ -15,7 +15,6 @@
 </template>
 
 <script>
-import HotlineIcon from './icons/IconHotLine.vue'
 </script>
 
 <style scoped>
