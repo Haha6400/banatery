@@ -40,7 +40,7 @@
   background-color:  var(--green-5);
   color: var(--text-primary);
   text-align: center;
-  padding: 20px 0;
+  padding: 20px 0 40px 0;
   display: grid;
     grid-template-columns: 1fr 1fr; /* Chia đôi trang thành hai cột bằng nhau */
     gap: 20px; /* Khoảng cách giữa hai cột */
