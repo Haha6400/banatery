@@ -72,7 +72,7 @@ import DoneIcon from './icons/IconDone.vue'
                 </div>
                 <div class="item">
                     <div class="details">
-                        <i><img src="./image/members/Nguyễn Thị Huyền Trang.JPG" class="logo" style="width: 70px; height: 70px; border-radius: 50%;"></i>
+                        <i><img src="./image/members/Nguyễn Thị Huyền Trang.jpg" class="logo" style="width: 70px; height: 70px; border-radius: 50%;"></i>
                         <h3>Nguyễn Thị Huyền Trang</h3>
                             Tài chính
                     </div>
