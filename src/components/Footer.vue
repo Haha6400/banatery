@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer">
+  <div class="footer">
     <div class="content">
         <img alt="Battery logo" class="logo" onclick='window.open("https://www.facebook.com/banatery?mibextid=LQQJ4d", "_blank");' src="@/assets/team-logo.png" width="30%"/>
       <p class="text-custom-1" >Dự án phát triển pin Lithium từ vỏ chuối</p>
@@ -11,7 +11,7 @@
           <p onclick='window.open("https://www.facebook.com/banatery?mibextid=LQQJ4d", "_blank");'> + Facebook: <i>Banatery</i></p>
           <p> + Email: banateryandanh@gmail.com</p>
       </div>
-  </footer>
+  </div>
 </template>
 
 <script>
