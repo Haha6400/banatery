@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import ProductItem from './ProductItem.vue'
-import DoneIcon from './icons/IconDone.vue'
 
 </script>
 
