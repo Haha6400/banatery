@@ -9,7 +9,8 @@ function scrollToSection(sectionId: string) {
 
 <template style = "background-image: url('@/assets/bgr1-100.jpg');">
 <div class="wrapper">
-<img alt="Banatery logo" class="logo" src="@/assets/team-logo.png" width="30%"/>
+    <img alt="Battery logo" class="logo" onclick='window.open("https://www.facebook.com/banatery?mibextid=LQQJ4d", "_blank");' src="@/assets/team-logo.png" width="30%"/>
+
   <div class="greetings">
     <h1 class = "green">Dự án phát triển pin Lithium từ vỏ chuối</h1>
     <h3 >
@@ -18,6 +19,7 @@ function scrollToSection(sectionId: string) {
     <nav style="text-align: center !important">
         <RouterLink to = "/" @click="scrollToSection('product')">Product</RouterLink>
         <RouterLink to = "/pin-core" @click="scrollToSection('structure')">Battery Core</RouterLink>
+        <RouterLink to = "/business" @click="scrollToSection('business')">Business</RouterLink>
         <RouterLink to = "/about" @click="scrollToSection('about-us')">About Us</RouterLink>
       </nav>
   </div>
@@ -26,7 +28,7 @@ function scrollToSection(sectionId: string) {
 
 <style scoped>
 h1 {
-  font-weight: 500;
+  font-weight: 650;
   font-size: 2rem;
   position: relative;
   top: -10px;
@@ -34,6 +36,7 @@ h1 {
 
 h3 {
   font-size: 24px;
+    font-style: italic;
 }
 
 h1, h3 {
@@ -50,6 +53,7 @@ nav {
   font-size: 12px;
   text-align: center;
   margin-top: 2rem;
+  margin-left: 10px;
 }
 nav a:hover{
   background-color: var(--green-3);
@@ -96,7 +100,7 @@ nav a:first-of-type {
   }
 
   nav {
-    margin-left: -1rem;
+    margin-left: 0;
     font-size: 1rem;
 
     padding: 1rem 0;

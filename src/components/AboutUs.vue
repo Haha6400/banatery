@@ -15,7 +15,7 @@ import DoneIcon from './icons/IconDone.vue'
             <div class= "left-side">
                 <div class="item">
                     <div class="details">
-                        <i><img src="./image/1.jpg" class="logo" style="width: 70px; height: 70px; border-radius: 50%;"></i>
+                        <i><img src="./image/members/Lê Thị Thu Hằng.jpg" class="logo" style="width: 70px; height: 70px; border-radius: 50%;"></i>
                         <h3>PGS. TS. Lê Thị Thu Hằng</h3>
                         Viện Kỹ thuật hóa học Đại học Bách Khoa Hà Nội
                     </div>
@@ -23,7 +23,7 @@ import DoneIcon from './icons/IconDone.vue'
 
                 <div class="item">
                     <div class="details">
-                        <i><img src="./image/1.jpg" class="logo" style="width: 70px; height: 70px; border-radius: 50%;"></i>
+                        <i><img src="./image/members/Thầy Nghĩa.jpg" class="logo" style="width: 70px; height: 70px; border-radius: 50%;"></i>
                         <h3>PGS. TS. Nguyễn Trọng Nghĩa</h3>
                         Viện Kỹ thuật hóa học Đại học Bách Khoa Hà Nội
                     </div>
@@ -31,7 +31,7 @@ import DoneIcon from './icons/IconDone.vue'
 
                 <div class="item">
                     <div class="details">
-                        <i><img src="./image/1.jpg" class="logo" style="width: 70px; height: 70px; border-radius: 50%;"></i>
+                        <i><img src="./image/members/Nguyễn Mỹ Anh.jpg" class="logo" style="width: 70px; height: 70px; border-radius: 50%;"></i>
                         <h3>Chị Nguyễn Mỹ Anh</h3>
                         Quản lý dự án tại Bộ Kế hoạch và Đầu tư
                     </div>
@@ -42,7 +42,7 @@ import DoneIcon from './icons/IconDone.vue'
 
                 <div class="item">
                     <div class="details">
-                        <i><img src="./image/1.jpg" class="logo" style="width: 70px; height: 70px; border-radius: 50%;"></i>
+                        <i><img src="./image/members/Lê Thị Thu Mai.jpg" class="logo" style="width: 70px; height: 70px; border-radius: 50%;"></i>
                         <h3>TS. Lê Thị Thu Mai</h3>
                         Giảng viên Khoa Marketing Trường Đại học Kinh tế Quốc dân
                     </div>
@@ -50,7 +50,7 @@ import DoneIcon from './icons/IconDone.vue'
 
                 <div class="item">
                     <div class="details">
-                        <i><img src="./image/1.jpg" class="logo" style="width: 70px; height: 70px; border-radius: 50%;"></i>
+                        <i><img src="./image/members/Nguyễn Thế Bảo.jpg" class="logo" style="width: 70px; height: 70px; border-radius: 50%;"></i>
                         <h3>Anh Nguyễn Thế Bảo</h3>
                         Co-founder tại Get Ins - Trung tâm đào tạo Công nghệ 4.0
                     </div>
@@ -65,21 +65,21 @@ import DoneIcon from './icons/IconDone.vue'
             <div class="first-side">
                 <div class="item">
                     <div class="details">
-                        <i><img src="./image/1.jpg" class="logo" style="width: 70px; height: 70px; border-radius: 50%;"></i>
+                        <i><img src="./image/members/Huyền Trang.jpg" class="logo" style="width: 70px; height: 70px; border-radius: 50%;"></i>
                         <h3>Lê Thị Huyền Trang</h3>
                         Phát triển Kinh doanh
                     </div>
                 </div>
                 <div class="item">
                     <div class="details">
-                        <i><img src="./image/1.jpg" class="logo" style="width: 70px; height: 70px; border-radius: 50%;"></i>
+                        <i><img src="./image/members/Nguyễn Thị Huyền Trang.jpg" class="logo" style="width: 70px; height: 70px; border-radius: 50%;"></i>
                         <h3>Nguyễn Thị Huyền Trang</h3>
                             Tài chính
                     </div>
                 </div>
                 <div class="item">
                     <div class="details">
-                        <i><img src="./image/1.jpg" class="logo" style="width: 70px; height: 70px; border-radius: 50%;"></i>
+                        <i><img src="./image/members/Thăng Nguyễn.jpg" class="logo" style="width: 70px; height: 70px; border-radius: 50%;"></i>
                         <h3>Nguyễn Thăng</h3>
                         Kỹ thuật
                     </div>
@@ -88,22 +88,22 @@ import DoneIcon from './icons/IconDone.vue'
             <div class="second-side">
                 <div class="item">
                     <div class="details">
-                        <i><img src="./image/1.jpg" class="logo" style="width: 70px; height: 70px; border-radius: 50%;"></i>
+                        <i><img src="./image/members/Nguyễn Bảo Khánh.jpg" class="logo" style="width: 70px; height: 70px; border-radius: 50%;"></i>
                         <h3>Nguyễn Bảo Khánh</h3>
                         Kỹ thuật
                     </div>
                 </div>
                 <div class="item">
                     <div class="details">
-                        <i><img src="./image/1.jpg" class="logo" style="width: 70px; height: 70px; border-radius: 50%;"></i>
+                        <i><img src="./image/members/Trần Minh Hương.jpg" class="logo" style="width: 70px; height: 70px; border-radius: 50%;"></i>
                         <h3>Trần Minh Hương</h3>
                         Kỹ thuật
                     </div>
                 </div>
                 <div class="item">
                     <div class="details">
-                        <i><img src="./image/1.jpg" class="logo" style="width: 70px; height: 70px; border-radius: 50%;"></i>
-                        <h3>  Đinh Thị Thu Thảo</h3>
+                        <i><img src="./image/members/Thu Thảo.jpg" class="logo" style="width: 70px; height: 70px; border-radius: 50%;"></i>
+                        <h3>Đinh Thị Thu Thảo</h3>
                         Phát triển Kinh doanh
                     </div>
                 </div>
@@ -112,21 +112,21 @@ import DoneIcon from './icons/IconDone.vue'
             <div class="third-side">
                 <div class="item">
                     <div class="details">
-                        <i><img src="./image/1.jpg" class="logo" style="width: 70px; height: 70px; border-radius: 50%;"></i>
+                        <i><img src="./image/members/Linh Trang.jpg" class="logo" style="width: 70px; height: 70px; border-radius: 50%;"></i>
                         <h3>Vũ Trần Linh Trang</h3>
                         Tài chính
                     </div>
                 </div>
                 <div class="item">
                     <div class="details">
-                        <i><img src="./image/1.jpg" class="logo" style="width: 70px; height: 70px; border-radius: 50%;"></i>
+                        <i><img src="./image/members/Mạnh Quân.jpg" class="logo" style="width: 70px; height: 70px; border-radius: 50%;"></i>
                         <h3>Trần Mạnh Quân</h3>
                         Kỹ thuật
                     </div>
                 </div>
                 <div class="item">
                     <div class="details">
-                        <i><img src="./image/1.jpg" class="logo" style="width: 70px; height: 70px; border-radius: 50%;"></i>
+                        <i><img src="./image/members/Thu NGa.jpg" class="logo" style="width: 70px; height: 70px; border-radius: 50%;"></i>
                         <h3>Vũ Thị Thu Nga</h3>
                         Kỹ thuật
                     </div>
