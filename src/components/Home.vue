@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { onMounted } from 'vue';
 import { useRouter } from 'vue-router';
+import Introdution from '../components/Introdution.vue';
+import Product from '../components/Product.vue';
 
 const router = useRouter();
 
@@ -19,6 +21,8 @@ function scrollToSection(sectionId: string) {
       <h3>Năng lượng xanh đến từ tương lai!</h3>
     </div>
   </div>
+  <Introdution/>
+  <Product />
 </template>
 
 <style scoped>

@@ -8,6 +8,7 @@
   --green-3: #d1f2a4;
   --green-4: #C7DB44;
   --green-5: #BFE689;
+  --green-6: #d9fba9;
 }
 
 /* semantic color variables for this project */
@@ -56,7 +57,7 @@ body {
     background-color 0.5s;
   line-height: 1.6;
   font-family:
-    'Montserrat',
+    /* 'Montserrat', */
     'Roboto',
     sans-serif;
   font-size: 15px;

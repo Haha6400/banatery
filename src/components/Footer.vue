@@ -11,7 +11,7 @@
       <p class="text-custom-2" >Năng lượng xanh đến từ tương lai!</p>
     </div>
     <div class="information" style="text-align: start !important; text-justify: end !important;">
-    <p style="font-weight: 500;"> Contact us: </p>
+    <p style="font-weight: 650;"> Contact us: </p>
                 <p> + Hotline: 0386 813 593 (Ms. Huyền Trang)</p>
           <p onclick='window.open("https://www.facebook.com/banatery?mibextid=LQQJ4d", "_blank");'> + Facebook: <i>Banatery</i></p>
           <p> + Email: banateryandanh@gmail.com</p>
@@ -40,7 +40,7 @@
 .footer {
   position: relative;
   min-height: 200px; /* Đảm bảo footer có độ cao tối thiểu */
-  background-color:  var(--green-5);
+  background-color:  var(--green-6); 
   color: var(--text-primary);
   text-align: center;
   padding: 20px 0 40px 0;

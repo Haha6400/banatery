@@ -5,13 +5,13 @@ import Product from '../components/Product.vue'
 </script>
 
 <template>
-<nav>
+<nav style = "background-color: var(--green-6);">
 <img alt="Battery logo" class="logo" onclick='window.open("https://www.facebook.com/banatery?mibextid=LQQJ4d", "_blank");' src="@/assets/team-logo - Copy.png" width="15%" style="margin: 0 2% -2% 0 0;"/>
-      <RouterLink to="/">Home</RouterLink>
-      <RouterLink to="/products">Products</RouterLink>
+      <RouterLink to="/">Trang chủ</RouterLink>
+      <RouterLink to="/products">Sản phẩm</RouterLink>
       <RouterLink to="/feedback">Feedback</RouterLink>
-      <RouterLink to="/achievement">Achievement</RouterLink>
-      <RouterLink to="/about">About Us</RouterLink>
+      <RouterLink to="/achievement">Thành tựu</RouterLink>
+      <RouterLink to="/about">Về chúng tôi</RouterLink>
       </nav>
 </template>
 <style scoped>
@@ -20,7 +20,7 @@ nav {
   height: 200%;
   font-size: 26px;
   margin-left: 10px;
-  margin-bottom: 1%;
+  padding-bottom: 1%;
 }
 nav a:hover{
   background-color: var(--green-3);

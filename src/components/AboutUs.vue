@@ -4,7 +4,7 @@ import DoneIcon from './icons/IconDone.vue'
 </script>
 
 <template>
-    <div style = "padding: 5%;">
+    <div style = "padding: 5%;  background-color: var(--green-5);">
     <div class="greetings">
         <h2 class="extra-bold">VỀ CHÚNG TÔI</h2>
     </div>
@@ -58,6 +58,8 @@ import DoneIcon from './icons/IconDone.vue'
             </div>
         </div>
     </div>
+    </div>
+    <div style = "padding: 2% 5%;" >
 
     <div class="greetings bgr-custom">
         <h4 class = "header-item">Thành viên</h4>
