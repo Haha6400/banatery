@@ -3,10 +3,10 @@ import ProductItem from './ProductItem.vue'
 import { ref, computed } from 'vue';
 
 const images = [
-  "/src/components/image/7.png",
-  "/src/components/image/8.png",
-  "/src/components/image/9.png",
-  "/src/components/image/10.jpg"
+  "@/assets/7.png",
+  "@/assets/8.png",
+  "@/assets/9.png",
+  "@/assets/10.jpg"
 ];
 
 const currentIndex = ref(0);
