@@ -114,7 +114,7 @@ function prevImage() {
   font-style: italic !important;
   display: inline-block;
   text-align: center !important;
-  padding: 2% 20%;
+  padding: 2% 0 2% 30%;
   font-size: 26px;
   line-height: 1.5; /* Adjust as needed for better line spacing */
 }
@@ -132,8 +132,7 @@ function prevImage() {
 }
 
 .image-center {
-  width: 80%;
-  margin: 0 10%;
+  width: 100%;
 }
 h3 {
   font-size: 34px;
